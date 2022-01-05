@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --cor0: #4800bdcc;
+    --cor1: rgb(45, 0, 117);
+    --cor2: rgb(17, 0, 116);
+    --cor3: rgb(214, 132, 10);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1));
+    padding: 20px;
+    margin: -5px; 
+ }
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px; 
+}
+
+ nav > a {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 10px;
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 1s;
+ }
+ 
+ nav > a:hover {
+    background-color: white;
+    color: var(--cor3);
+    border-radius: 4px;
+ }
+
+body {
+    background-color: var(--cor1);
+}
+main {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    max-width: 750px;
+    min-width: 400px;
+    padding: 10px;
+    margin: 25px auto ;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+main p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+h1 {
+    text-align: center; 
+    color: var(--cor3);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px rgb(112, 69, 5);
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-size: 35px;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.principal {
+    color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: left;
+    margin-bottom: 25px;  
+}
+
+
+video#TW{
+    height: 300px;
+    width: auto;
+    margin-left: 120px;
+    padding: 20px 100px 20px 100px;
+    background-color: var(--cor1);
+}
+
+
+/*
+div#video {
+    background-color: var(--cor1);
+    padding: 20px 100px 20px 100px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 59%;
+    position: relative;
+ }
+ 
+ div#video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+ }
+*/
+h3 {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--cor2);
+    margin-bottom: -5px;
+    margin-top: 45px;
+}
+ 
+strong#ITW {
+    transition: 1s;
+}
+
+strong#ITW:hover {
+    background-color: black;
+    color:#daa520;
+    border-radius: 1px;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 10px -9px -9px -9px;
+    padding: 4px;
+ }
+ 
+ strong.branco {
+    color: black;
+ }
+ 
+ footer > p {
+    margin: 0px;
+ }
+
